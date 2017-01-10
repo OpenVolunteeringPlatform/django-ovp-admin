@@ -339,14 +339,11 @@ select {
 
 
 
-
-
 .widget_type__adminreadonlyfield > label,
 .widget_type__adminreadonlyfield > p {
   display: inline-block;
   margin-bottom: 0px;
 }
-
 
 #user-tools {
   opacity: 0.7;
@@ -354,4 +351,16 @@ select {
   right: 15px;
   top: -1px;
   transition: opacity 0.3s ease-in-out 0s;
+}
+
+.help-block.error {
+  color: #b94a48;
+}
+
+
+.related-widget-wrapper.input-group #add_id_causes {
+  display: none;
+}
+.related-widget-wrapper.input-group #id_causes {
+  min-height: 10.6em;
 }

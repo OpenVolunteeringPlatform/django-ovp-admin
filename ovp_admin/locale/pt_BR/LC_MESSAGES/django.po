@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-09 12:40+0000\n"
+"POT-Creation-Date: 2017-01-10 16:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,52 +17,6 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-
-#: django-ovp-admin/ovp_admin/modules/organization.py:51
-msgid "Owner's Name"
-msgstr "Responsável"
-
-#: django-ovp-admin/ovp_admin/modules/organization.py:56
-msgid "Owner's E-mail"
-msgstr "Email do Responsável"
-
-#: django-ovp-admin/ovp_admin/modules/organization.py:61
-msgid "Owner's Phone"
-msgstr "Tel do Responsável"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:40
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:49
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:57
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:65
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:73
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:81
-msgid "None"
-msgstr "Nenhum"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:42
-msgid "Name"
-msgstr "Nome"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:50
-msgid "E-mail"
-msgstr "Email"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:58
-msgid "Phone"
-msgstr "Telefone"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:66
-msgid "Project"
-msgstr "Projeto"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:74
-#: django-ovp-admin/ovp_admin/modules/project/project.py:54
-msgid "Organization"
-msgstr "Oganização"
-
-#: django-ovp-admin/ovp_admin/modules/project/apply.py:82
-msgid "Address"
-msgstr "Endereço"
 
 #: django-ovp-admin/ovp_admin/templates/admin/404.html:4
 #: django-ovp-admin/ovp_admin/templates/admin/404.html:8
@@ -134,7 +88,9 @@ msgstr "Limpar Seleção"
 msgid ""
 "First, enter a username and password. Then, you'll be able to edit more user "
 "options."
-msgstr "Primeiro, entre nome de usuário e senha, e então, poderá editar mais opções de usuário"
+msgstr ""
+"Primeiro, entre nome de usuário e senha, e então, poderá editar mais opções "
+"de usuário"
 
 #: django-ovp-admin/ovp_admin/templates/admin/auth/user/add_form.html:10
 msgid "Enter a username and password."
@@ -301,8 +257,8 @@ msgid ""
 "types of objects:"
 msgstr ""
 "Apagando os %(objects_name)s selecionados resultará em apagar objetos "
-"relacionados, mas sua conta não possui pormissão para apagar os objetos "
-"dos seguintes tipos: "
+"relacionados, mas sua conta não possui pormissão para apagar os objetos dos "
+"seguintes tipos: "
 
 #: django-ovp-admin/ovp_admin/templates/admin/delete_selected_confirmation.html:40
 #, python-format
@@ -319,8 +275,8 @@ msgid ""
 "Are you sure you want to delete the selected %(objects_name)s? All of the "
 "following objects and their related items will be deleted:"
 msgstr ""
-"Está certo de que deseja apagar os %(objects_name)s selecionados? "
-"Todos os seguintes itens e suas relações são serão apagadas:"
+"Está certo de que deseja apagar os %(objects_name)s selecionados? Todos os "
+"seguintes itens e suas relações são serão apagadas:"
 
 #: django-ovp-admin/ovp_admin/templates/admin/edit_inline/stacked.html:41
 #: django-ovp-admin/ovp_admin/templates/admin/edit_inline/tabular.html:81
@@ -444,7 +400,7 @@ msgstr ""
 msgid "Show all"
 msgstr "Mostrar todos"
 
-#: django-ovp-admin/ovp_admin/templates/admin/popup_response.html:16
+#: django-ovp-admin/ovp_admin/templates/admin/popup_response.html:3
 msgid "Popup closing..."
 msgstr "Janela fechando..."
 
@@ -562,15 +518,14 @@ msgid ""
 "The password reset link was invalid, possibly because it has already been "
 "used.  Please request a new password reset."
 msgstr ""
-"O link de redefinição de senha foi inválidado, possivelmente por uso anterior."
-"Pedimos que repita o processo de redefinição de senha."
+"O link de redefinição de senha foi inválidado, possivelmente por uso "
+"anterior.Pedimos que repita o processo de redefinição de senha."
 
 #: django-ovp-admin/ovp_admin/templates/registration/password_reset_done.html:19
 msgid ""
 "We've emailed you instructions for setting your password. You should be "
 "receiving them shortly."
 msgstr ""
-""
 "Lhe enviamos um email com instruções para redefinir sua senha. Você deverá "
 "recebe-lo em breve."
 
@@ -624,20 +579,215 @@ msgstr "Endereço de email:"
 msgid "Reset my password"
 msgstr "Redefinir minha senha"
 
+#: django-ovp-organizations/ovp_organizations/admin.py:53
+msgid "Owner's Name"
+msgstr "Responsável"
+
+#: django-ovp-organizations/ovp_organizations/admin.py:58
+msgid "Owner's E-mail"
+msgstr "Email do Responsável"
+
+#: django-ovp-organizations/ovp_organizations/admin.py:63
+msgid "Owner's Phone"
+msgstr "Tel do Responsável"
+
+#: django-ovp-organizations/ovp_organizations/models.py:10
+#: django-ovp-projects/ovp_projects/admin/apply.py:74
+#: django-ovp-projects/ovp_projects/admin/project.py:55
+msgid "Organization"
+msgstr "Oganização"
+
+#: django-ovp-organizations/ovp_organizations/models.py:11
+msgid "School"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:12
+msgid "Company"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:13
+msgid "Group of volunteers"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:18
+msgid "owner"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:19
+#: django-ovp-projects/ovp_projects/models/project.py:17
+#, fuzzy
+#| msgid "Address"
+msgid "address"
+msgstr "Endereço"
+
+#: django-ovp-organizations/ovp_organizations/models.py:20
+#: django-ovp-projects/ovp_projects/models/project.py:16
+#: django-ovp-projects/ovp_projects/models/project.py:22
+msgid "image"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:21
+msgid "cover"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:22
+#: django-ovp-projects/ovp_projects/models/project.py:19
+msgid "causes"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:23
+msgid "members"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:26
+#: django-ovp-users/ovp_users/models.py:42
+msgid "Slug"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:27
+#: django-ovp-projects/ovp_projects/admin/apply.py:42
+#: django-ovp-users/ovp_users/models.py:41
+msgid "Name"
+msgstr "Nome"
+
+#: django-ovp-organizations/ovp_organizations/models.py:28
+msgid "Website"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:29
+msgid "Facebook"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:30
+msgid "Type"
+msgstr ""
+
+#: django-ovp-organizations/ovp_organizations/models.py:31
+#: django-ovp-projects/ovp_projects/models/project.py:44
+#: django-ovp-projects/ovp_projects/models/project.py:142
+msgid "Details"
+msgstr "Detalhes"
+
+#: django-ovp-organizations/ovp_organizations/models.py:32
+#: django-ovp-projects/ovp_projects/models/project.py:45
+msgid "Short description"
+msgstr "Descrição curta"
+
+#: django-ovp-organizations/ovp_organizations/models.py:35
+#: django-ovp-projects/ovp_projects/models/project.py:30
+msgid "Highlighted"
+msgstr "Em destaque"
+
+#: django-ovp-organizations/ovp_organizations/models.py:36
+#: django-ovp-projects/ovp_projects/models/project.py:29
+msgid "Published"
+msgstr "Publicado"
+
+#: django-ovp-organizations/ovp_organizations/models.py:37
+#: django-ovp-projects/ovp_projects/models/project.py:35
+msgid "Published date"
+msgstr "Data de publicação"
+
+#: django-ovp-organizations/ovp_organizations/models.py:38
+#: django-ovp-projects/ovp_projects/models/project.py:38
+msgid "Deleted"
+msgstr "Apagado"
+
+#: django-ovp-organizations/ovp_organizations/models.py:39
+#: django-ovp-projects/ovp_projects/models/project.py:39
+msgid "Deleted date"
+msgstr "Apagado em"
+
+#: django-ovp-organizations/ovp_organizations/models.py:40
+#: django-ovp-projects/ovp_projects/models/project.py:40
+#: django-ovp-users/ovp_users/models.py:91
+#, fuzzy
+#| msgid "Deleted date"
+msgid "Created date"
+msgstr "Apagado em"
+
+#: django-ovp-organizations/ovp_organizations/models.py:41
+#: django-ovp-projects/ovp_projects/models/project.py:41
+#: django-ovp-users/ovp_users/models.py:52
+#, fuzzy
+#| msgid "Closed date"
+msgid "Modified date"
+msgstr "Data de fechamento"
+
+#: django-ovp-organizations/ovp_organizations/models.py:98
+#: django-ovp-projects/ovp_projects/models/project.py:23
+#, fuzzy
+#| msgid "Organization"
+msgid "organization"
+msgstr "Oganização"
+
+#: django-ovp-organizations/ovp_organizations/models.py:108
+#, fuzzy
+#| msgid "Organization"
+msgid "organization_invite"
+msgstr "Oganização"
+
+#: django-ovp-projects/ovp_projects/admin/apply.py:40
+#: django-ovp-projects/ovp_projects/admin/apply.py:49
+#: django-ovp-projects/ovp_projects/admin/apply.py:57
+#: django-ovp-projects/ovp_projects/admin/apply.py:65
+#: django-ovp-projects/ovp_projects/admin/apply.py:73
+#: django-ovp-projects/ovp_projects/admin/apply.py:81
+msgid "None"
+msgstr "Nenhum"
+
+#: django-ovp-projects/ovp_projects/admin/apply.py:50
+msgid "E-mail"
+msgstr "Email"
+
+#: django-ovp-projects/ovp_projects/admin/apply.py:58
+#: django-ovp-users/ovp_users/models.py:43
+msgid "Phone"
+msgstr "Telefone"
+
+#: django-ovp-projects/ovp_projects/admin/apply.py:66
+msgid "Project"
+msgstr "Projeto"
+
+#: django-ovp-projects/ovp_projects/admin/apply.py:82
+msgid "Address"
+msgstr "Endereço"
+
+#: django-ovp-projects/ovp_projects/models/apply.py:8
+msgid "user"
+msgstr ""
+
+#: django-ovp-projects/ovp_projects/models/apply.py:9
+#: django-ovp-projects/ovp_projects/models/project.py:121
+msgid "project"
+msgstr "projeto"
+
 #: django-ovp-projects/ovp_projects/models/apply.py:10
-msgid "name"
-msgstr "nome"
+msgid "status"
+msgstr ""
+
+#: django-ovp-projects/ovp_projects/models/apply.py:11
+#, fuzzy
+#| msgid "Deleted date"
+msgid "created date"
+msgstr "Apagado em"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:12
-msgid "Canceled"
+#, fuzzy
+#| msgid "Canceled"
+msgid "canceled"
 msgstr "Cancelado"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:13
-msgid "Canceled date"
+#, fuzzy
+#| msgid "Canceled date"
+msgid "canceled date"
 msgstr "Data de Cancelamento"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:14
-msgid "Email"
+#, fuzzy
+#| msgid "Email"
+msgid "email"
 msgstr "Email"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:43
@@ -662,6 +812,11 @@ msgstr "Data de inicial"
 msgid "End date"
 msgstr "Data final"
 
+#: django-ovp-projects/ovp_projects/models/job.py:8
+#: django-ovp-projects/ovp_projects/models/job.py:42
+msgid "job"
+msgstr "projeto"
+
 #: django-ovp-projects/ovp_projects/models/job.py:17
 msgid "job date"
 msgstr "data do projeto"
@@ -679,13 +834,13 @@ msgstr "Essa projeto pode ser feita remotamente"
 msgid "Unbound Job"
 msgstr "Ação sem projeto"
 
-#: django-ovp-projects/ovp_projects/models/job.py:42
-msgid "job"
-msgstr "projeto"
-
 #: django-ovp-projects/ovp_projects/models/job.py:43
 msgid "jobs"
 msgstr "projetos"
+
+#: django-ovp-projects/ovp_projects/models/project.py:18
+msgid "skills"
+msgstr ""
 
 #: django-ovp-projects/ovp_projects/models/project.py:24
 msgid "Volunteer Roles"
@@ -695,17 +850,9 @@ msgstr "Cargos de Voluntário"
 msgid "Project name"
 msgstr "Nome do Projeto"
 
-#: django-ovp-projects/ovp_projects/models/project.py:29
-msgid "Published"
-msgstr "Publicado"
-
-#: django-ovp-projects/ovp_projects/models/project.py:30
-msgid "Highlighted"
-msgstr "Em destaque"
-
-#: django-ovp-projects/ovp_projects/models/project.py:35
-msgid "Published date"
-msgstr "Data de publicação"
+#: django-ovp-projects/ovp_projects/models/project.py:31
+msgid "Applied count"
+msgstr ""
 
 #: django-ovp-projects/ovp_projects/models/project.py:36
 msgid "Closed"
@@ -714,27 +861,6 @@ msgstr "Fechado"
 #: django-ovp-projects/ovp_projects/models/project.py:37
 msgid "Closed date"
 msgstr "Data de fechamento"
-
-#: django-ovp-projects/ovp_projects/models/project.py:38
-msgid "Deleted"
-msgstr "Apagado"
-
-#: django-ovp-projects/ovp_projects/models/project.py:39
-msgid "Deleted date"
-msgstr "Apagado em"
-
-#: django-ovp-projects/ovp_projects/models/project.py:44
-#: django-ovp-projects/ovp_projects/models/project.py:142
-msgid "Details"
-msgstr "Detalhes"
-
-#: django-ovp-projects/ovp_projects/models/project.py:45
-msgid "Short description"
-msgstr "Descrição curta"
-
-#: django-ovp-projects/ovp_projects/models/project.py:121
-msgid "project"
-msgstr "projeto"
 
 #: django-ovp-projects/ovp_projects/models/project.py:122
 msgid "projects"
@@ -768,6 +894,11 @@ msgstr "Horas semanais"
 msgid "Description"
 msgstr "Descrição"
 
+#: django-ovp-projects/ovp_projects/models/work.py:12
+#, python-format
+msgid "%s hours per week"
+msgstr ""
+
 #: django-ovp-projects/ovp_projects/models/work.py:16
 msgid "work"
 msgstr "trabalho"
@@ -788,11 +919,53 @@ msgstr "imagens enviadas"
 msgid "Image 350x260"
 msgstr "Imagem 350x260"
 
-#: server/settings.py:183
+#: django-ovp-users/ovp_users/models.py:40
+msgid "Email"
+msgstr "Email"
+
+#: django-ovp-users/ovp_users/models.py:44
+msgid "avatar"
+msgstr ""
+
+#: django-ovp-users/ovp_users/models.py:46
+msgid "Staff"
+msgstr ""
+
+#: django-ovp-users/ovp_users/models.py:47
+msgid "Superuser"
+msgstr ""
+
+#: django-ovp-users/ovp_users/models.py:48
+#, fuzzy
+#| msgid "Action"
+msgid "Active"
+msgstr "Ação"
+
+#: django-ovp-users/ovp_users/models.py:49
+msgid "Email verified"
+msgstr ""
+
+#: django-ovp-users/ovp_users/models.py:51
+#, fuzzy
+#| msgid "End date"
+msgid "Joined date"
+msgstr "Data final"
+
+#: django-ovp-users/ovp_users/models.py:90
+msgid "Token"
+msgstr ""
+
+#: django-ovp-users/ovp_users/models.py:92
+#, fuzzy
+#| msgid "Closed date"
+msgid "Used date"
+msgstr "Data de fechamento"
+
+#: server/settings.py:176
 msgid "Portuguese"
 msgstr "Português"
 
-#: server/settings.py:184
+#: server/settings.py:177
 msgid "English"
 msgstr "Inglês"
 
@@ -853,7 +1026,11 @@ msgid "Artes/Artesanato"
 msgstr ""
 
 #: ovp_core.Skill/name:2
-msgid "Português"
+msgid "Comunicação"
+msgstr ""
+
+#: ovp_core.Skill/name:3
+msgid "Dança/Música"
 msgstr ""
 
 #: ovp_core.Skill/name:4
@@ -883,3 +1060,6 @@ msgstr ""
 #: ovp_core.Skill/name:12
 msgid "Outros"
 msgstr ""
+
+#~ msgid "name"
+#~ msgstr "nome"
