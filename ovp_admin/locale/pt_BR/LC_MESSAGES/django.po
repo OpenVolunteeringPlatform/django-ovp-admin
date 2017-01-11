@@ -747,7 +747,7 @@ msgstr "Telefone"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:66
 msgid "Project"
-msgstr "Projeto"
+msgstr "Ação"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:82
 msgid "Address"
@@ -760,7 +760,7 @@ msgstr ""
 #: django-ovp-projects/ovp_projects/models/apply.py:9
 #: django-ovp-projects/ovp_projects/models/project.py:121
 msgid "project"
-msgstr "projeto"
+msgstr "ação"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:10
 msgid "status"
@@ -815,28 +815,28 @@ msgstr "Data final"
 #: django-ovp-projects/ovp_projects/models/job.py:8
 #: django-ovp-projects/ovp_projects/models/job.py:42
 msgid "job"
-msgstr "projeto"
+msgstr "trabalho"
 
 #: django-ovp-projects/ovp_projects/models/job.py:17
 msgid "job date"
-msgstr "data do projeto"
+msgstr "data do trabalho"
 
 #: django-ovp-projects/ovp_projects/models/job.py:18
 msgid "job dates"
-msgstr "datas do projeto"
+msgstr "datas do trabalho"
 
 #: django-ovp-projects/ovp_projects/models/job.py:25
 #: django-ovp-projects/ovp_projects/models/work.py:9
 msgid "This job can be done remotely"
-msgstr "Essa projeto pode ser feita remotamente"
+msgstr "Essa trabalho pode ser feita remotamente"
 
 #: django-ovp-projects/ovp_projects/models/job.py:28
 msgid "Unbound Job"
-msgstr "Ação sem projeto"
+msgstr "Ação sem trabalho"
 
 #: django-ovp-projects/ovp_projects/models/job.py:43
 msgid "jobs"
-msgstr "projetos"
+msgstr "trabalhos"
 
 #: django-ovp-projects/ovp_projects/models/project.py:18
 msgid "skills"
@@ -848,7 +848,7 @@ msgstr "Cargos de Voluntário"
 
 #: django-ovp-projects/ovp_projects/models/project.py:27
 msgid "Project name"
-msgstr "Nome do Projeto"
+msgstr "Nome da Ação"
 
 #: django-ovp-projects/ovp_projects/models/project.py:31
 msgid "Applied count"
