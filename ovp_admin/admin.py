@@ -1,7 +1,5 @@
 from django.contrib import admin
 
-from ovp_admin.modules import *
-
 #from django.core.exceptions import PermissionDenied
 #from django.http import HttpResponse, HttpResponseRedirect
 #from django.contrib.admin.util import lookup_field
@@ -17,6 +15,7 @@ from ovp_admin.modules import *
 import ovp_users.models as user
 import ovp_projects.models as project
 import ovp_organizations.models as organization
+
 #+- import ovp_uploads.models as upload
 #+- import ovp_projects.models as project
 #+- import ovp_search.models as search_models
@@ -24,10 +23,17 @@ import ovp_organizations.models as organization
 
 
 adm_reg = admin.site._registry
-adm_reg[user.User].display_on_main_menu = True
-adm_reg[project.Project].display_on_main_menu = True
-adm_reg[project.Apply].display_on_main_menu = True
-adm_reg[organization.Organization].display_on_main_menu = True
+if user.User in adm_reg:
+	adm_reg[user.User].display_on_main_menu = True
+
+if project.Project in adm_reg:
+	adm_reg[project.Project].display_on_main_menu = True
+
+if project.Apply in adm_reg:
+	adm_reg[project.Apply].display_on_main_menu = True
+
+if organization.Organization in adm_reg:
+	adm_reg[organization.Organization].display_on_main_menu = True
 
 
 #++ ovp_projects.models.project.Project
