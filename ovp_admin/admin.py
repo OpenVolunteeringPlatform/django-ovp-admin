@@ -12,6 +12,7 @@ from django.contrib import admin
 #from django.core.urlresolvers import reverse
 
 
+import ovp_core.models as core
 import ovp_users.models as user
 import ovp_projects.models as project
 import ovp_organizations.models as organization
@@ -23,6 +24,10 @@ import ovp_organizations.models as organization
 
 
 adm_reg = admin.site._registry
+
+if core.Lead in adm_reg:
+	adm_reg[core.Lead].display_on_main_menu = True
+
 if user.User in adm_reg:
 	adm_reg[user.User].display_on_main_menu = True
 
