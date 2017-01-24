@@ -17,6 +17,7 @@ import ovp_users.models as user
 import ovp_projects.models as project
 import ovp_organizations.models as organization
 
+
 #+- import ovp_uploads.models as upload
 #+- import ovp_projects.models as project
 #+- import ovp_search.models as search_models
@@ -40,6 +41,14 @@ if project.Apply in adm_reg:
 if organization.Organization in adm_reg:
 	adm_reg[organization.Organization].display_on_main_menu = True
 
+
+
+try:
+  import react_cms.models as react_cms
+  if react_cms.ContentResource in adm_reg:
+    adm_reg[react_cms.ContentResource].display_on_main_menu = True
+except ImportError:
+  pass
 
 #++ ovp_projects.models.project.Project
 #++ ovp_projects.models.apply.apply
