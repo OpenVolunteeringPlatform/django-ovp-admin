@@ -2,17 +2,15 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-01-30 18:22+0000\n"
+"POT-Creation-Date: 2017-02-02 17:04+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -588,7 +586,7 @@ msgstr "Redefinir minha senha"
 #: django-ovp-projects/ovp_projects/admin/apply.py:67
 #: django-ovp-projects/ovp_projects/admin/apply.py:75
 #: django-ovp-projects/ovp_projects/admin/apply.py:83
-#: django-ovp-projects/ovp_projects/admin/project.py:86
+#: django-ovp-projects/ovp_projects/admin/project.py:85
 msgid "None"
 msgstr "Nenhum"
 
@@ -606,7 +604,7 @@ msgstr "Tel do Responsável"
 
 #: django-ovp-organizations/ovp_organizations/models.py:10
 #: django-ovp-projects/ovp_projects/admin/apply.py:76
-#: django-ovp-projects/ovp_projects/admin/project.py:87
+#: django-ovp-projects/ovp_projects/admin/project.py:86
 msgid "Organization"
 msgstr "Oganização"
 
@@ -623,19 +621,17 @@ msgid "Group of volunteers"
 msgstr "Grupo de voluntários"
 
 #: django-ovp-organizations/ovp_organizations/models.py:18
-#: django-ovp-projects/ovp_projects/models/project.py:22
+#: django-ovp-projects/ovp_projects/models/project.py:23
 msgid "owner"
 msgstr "responsável"
 
 #: django-ovp-organizations/ovp_organizations/models.py:19
-#: django-ovp-projects/ovp_projects/models/project.py:17
-#, fuzzy
-#| msgid "Address"
+#: django-ovp-projects/ovp_projects/models/project.py:18
 msgid "address"
-msgstr "Endereço"
+msgstr "endereço"
 
 #: django-ovp-organizations/ovp_organizations/models.py:20
-#: django-ovp-projects/ovp_projects/models/project.py:16
+#: django-ovp-projects/ovp_projects/models/project.py:17
 msgid "image"
 msgstr "imagem"
 
@@ -644,7 +640,7 @@ msgid "cover"
 msgstr "capa"
 
 #: django-ovp-organizations/ovp_organizations/models.py:22
-#: django-ovp-projects/ovp_projects/models/project.py:19
+#: django-ovp-projects/ovp_projects/models/project.py:20
 msgid "causes"
 msgstr "causas"
 
@@ -676,69 +672,61 @@ msgid "Type"
 msgstr "Tipo"
 
 #: django-ovp-organizations/ovp_organizations/models.py:31
-#: django-ovp-projects/ovp_projects/models/project.py:45
-#: django-ovp-projects/ovp_projects/models/project.py:132
+#: django-ovp-projects/ovp_projects/models/project.py:48
+#: django-ovp-projects/ovp_projects/models/project.py:135
 msgid "Details"
 msgstr "Detalhes"
 
 #: django-ovp-organizations/ovp_organizations/models.py:32
-#: django-ovp-projects/ovp_projects/models/project.py:46
+#: django-ovp-projects/ovp_projects/models/project.py:49
 msgid "Short description"
 msgstr "Descrição curta"
 
 #: django-ovp-organizations/ovp_organizations/models.py:35
-#: django-ovp-projects/ovp_projects/models/project.py:29
+#: django-ovp-projects/ovp_projects/models/project.py:30
 msgid "Highlighted"
 msgstr "Em destaque"
 
 #: django-ovp-organizations/ovp_organizations/models.py:36
-#: django-ovp-projects/ovp_projects/models/project.py:28
+#: django-ovp-projects/ovp_projects/models/project.py:29
 msgid "Published"
 msgstr "Publicado"
 
 #: django-ovp-organizations/ovp_organizations/models.py:37
-#: django-ovp-projects/ovp_projects/models/project.py:36
+#: django-ovp-projects/ovp_projects/models/project.py:39
 msgid "Published date"
 msgstr "Data de publicação"
 
 #: django-ovp-organizations/ovp_organizations/models.py:38
-#: django-ovp-projects/ovp_projects/models/project.py:39
+#: django-ovp-projects/ovp_projects/models/project.py:42
 msgid "Deleted"
 msgstr "Apagado"
 
 #: django-ovp-organizations/ovp_organizations/models.py:39
-#: django-ovp-projects/ovp_projects/models/project.py:40
+#: django-ovp-projects/ovp_projects/models/project.py:43
 msgid "Deleted date"
 msgstr "Apagado em"
 
 #: django-ovp-organizations/ovp_organizations/models.py:40
-#: django-ovp-projects/ovp_projects/models/project.py:41
+#: django-ovp-projects/ovp_projects/models/project.py:44
 #: django-ovp-users/ovp_users/models.py:91
-#, fuzzy
-#| msgid "Deleted date"
 msgid "Created date"
-msgstr "Apagado em"
+msgstr "Criado em"
 
 #: django-ovp-organizations/ovp_organizations/models.py:41
-#: django-ovp-projects/ovp_projects/models/project.py:42
+#: django-ovp-projects/ovp_projects/models/project.py:45
 #: django-ovp-users/ovp_users/models.py:52
-#, fuzzy
-#| msgid "Closed date"
 msgid "Modified date"
-msgstr "Data de fechamento"
+msgstr "Modificado em"
 
 #: django-ovp-organizations/ovp_organizations/models.py:98
-#: django-ovp-projects/ovp_projects/models/project.py:23
-#, fuzzy
-#| msgid "Organization"
+#: django-ovp-projects/ovp_projects/models/project.py:24
 msgid "organization"
-msgstr "Oganização"
+msgstr "oganização"
 
 #: django-ovp-organizations/ovp_organizations/models.py:108
-#, fuzzy
-#| msgid "Organization"
 msgid "organization_invite"
-msgstr "Oganização"
+msgstr "Convite da Oganização"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:52
 msgid "E-mail"
@@ -750,6 +738,7 @@ msgid "Phone"
 msgstr "Telefone"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:68
+#: django-ovp-projects/ovp_projects/models/project.py:137
 msgid "Project"
 msgstr "Ação"
 
@@ -770,45 +759,42 @@ msgstr "editar"
 msgid "Edit dates"
 msgstr "Editar datas"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:79
+#: django-ovp-projects/ovp_projects/admin/project.py:78
 msgid "Type not specified"
 msgstr "Tipo não especificado"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:80
+#: django-ovp-projects/ovp_projects/admin/project.py:79
 msgid "Can be done remotely?"
 msgstr "Pode ser feita remotamente?"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:91
-#: django-ovp-projects/ovp_projects/admin/project.py:96
-#: django-ovp-projects/ovp_projects/admin/project.py:101
+#: django-ovp-projects/ovp_projects/admin/project.py:90
+#: django-ovp-projects/ovp_projects/admin/project.py:95
+#: django-ovp-projects/ovp_projects/admin/project.py:100
 msgid "Owner not assigned"
 msgstr "Responsável não definido"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:92
+#: django-ovp-projects/ovp_projects/admin/project.py:91
 msgid "Owner name"
 msgstr "Responsável"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:97
+#: django-ovp-projects/ovp_projects/admin/project.py:96
 msgid "Owner email"
 msgstr "Email do Responsável"
 
-#: django-ovp-projects/ovp_projects/admin/project.py:102
+#: django-ovp-projects/ovp_projects/admin/project.py:101
 msgid "Owner phone"
 msgstr "Tel do Responsável"
 
-#: django-ovp-projects/ovp_projects/emails.py:64
-#, fuzzy
-#| msgid "volunteer role"
+#: django-ovp-projects/ovp_projects/emails.py:65
 msgid "New volunteer on your project"
-msgstr "cargo do voluntário"
+msgstr "Novo voluntário em seu projeto"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:8
 msgid "user"
 msgstr "usuário"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:9
-#: django-ovp-projects/ovp_projects/models/project.py:122
-#: django-ovp-projects/ovp_projects/models/project.py:134
+#: django-ovp-projects/ovp_projects/models/project.py:125
 msgid "project"
 msgstr "ação"
 
@@ -837,8 +823,6 @@ msgid "email"
 msgstr "email"
 
 #: django-ovp-projects/ovp_projects/models/apply.py:17
-#, fuzzy
-#| msgid "Phone"
 msgid "phone"
 msgstr "Telefone"
 
@@ -890,53 +874,59 @@ msgstr "Ação sem projeto"
 msgid "jobs"
 msgstr "ações"
 
-#: django-ovp-projects/ovp_projects/models/project.py:18
+#: django-ovp-projects/ovp_projects/models/project.py:19
 msgid "skills"
 msgstr "habilidades"
 
-#: django-ovp-projects/ovp_projects/models/project.py:26
+#: django-ovp-projects/ovp_projects/models/project.py:27
 msgid "Project name"
 msgstr "Nome da Ação"
 
-#: django-ovp-projects/ovp_projects/models/project.py:30
+#: django-ovp-projects/ovp_projects/models/project.py:31
 msgid "Applied count"
 msgstr "Voluntários aplicados"
 
-#: django-ovp-projects/ovp_projects/models/project.py:33
-#, fuzzy
-#| msgid "Published"
+#: django-ovp-projects/ovp_projects/models/project.py:34
 msgid "Public"
-msgstr "Publicado"
+msgstr "Publico"
 
-#: django-ovp-projects/ovp_projects/models/project.py:37
+#: django-ovp-projects/ovp_projects/models/project.py:35
+msgid "Minimum Age"
+msgstr "Idade Mínima"
+
+#: django-ovp-projects/ovp_projects/models/project.py:36
+msgid "Hidden address"
+msgstr "Endereço oculto"
+
+#: django-ovp-projects/ovp_projects/models/project.py:40
 msgid "Closed"
 msgstr "Fechado"
 
-#: django-ovp-projects/ovp_projects/models/project.py:38
+#: django-ovp-projects/ovp_projects/models/project.py:41
 msgid "Closed date"
 msgstr "Data de fechamento"
 
-#: django-ovp-projects/ovp_projects/models/project.py:123
+#: django-ovp-projects/ovp_projects/models/project.py:126
 msgid "projects"
 msgstr "projetos"
 
-#: django-ovp-projects/ovp_projects/models/project.py:130
+#: django-ovp-projects/ovp_projects/models/project.py:133
 msgid "Role name"
 msgstr "Nome do cargo"
 
-#: django-ovp-projects/ovp_projects/models/project.py:131
+#: django-ovp-projects/ovp_projects/models/project.py:134
 msgid "Prerequisites"
 msgstr "Prerrequisitos"
 
-#: django-ovp-projects/ovp_projects/models/project.py:133
+#: django-ovp-projects/ovp_projects/models/project.py:136
 msgid "Vacancies"
 msgstr "Vagas"
 
-#: django-ovp-projects/ovp_projects/models/project.py:139
+#: django-ovp-projects/ovp_projects/models/project.py:142
 msgid "volunteer role"
 msgstr "cargo do voluntário"
 
-#: django-ovp-projects/ovp_projects/models/project.py:140
+#: django-ovp-projects/ovp_projects/models/project.py:143
 msgid "volunteer roles"
 msgstr "cargos de volunrários"
 
@@ -1009,13 +999,17 @@ msgstr ""
 msgid "Used date"
 msgstr "Usado em"
 
-#: server/settings.py:180
+#: server/settings.py:181
 msgid "English"
 msgstr "Inglês"
 
-#: server/settings.py:181
+#: server/settings.py:182
 msgid "Portuguese"
 msgstr "Português"
+
+#: server/settings.py:183
+msgid "Spanish"
+msgstr ""
 
 #: ovp_core.Cause/name:1
 msgid "Professional Training"
