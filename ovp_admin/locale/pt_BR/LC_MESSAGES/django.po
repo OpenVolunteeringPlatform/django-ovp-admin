@@ -1018,7 +1018,7 @@ msgstr "Luta Contra Miséria"
 
 #: ovp_core.Cause/name:3
 msgid "Conscious consumption"
-msgstr "Consumo Consciênte"
+msgstr "Consumo Consciente"
 
 #: ovp_core.Cause/name:4
 msgid "Culture, Sport and Art"
