@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-04-26 22:27+0000\n"
+"POT-Creation-Date: 2017-04-26 22:38+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -624,7 +624,7 @@ msgstr "Tel do Responsável"
 #: django-ovp-projects/ovp_projects/admin/apply.py:76
 #: django-ovp-projects/ovp_projects/admin/project.py:86
 msgid "Organization"
-msgstr "Oganização"
+msgstr "Organização"
 
 #: django-ovp-organizations/ovp_organizations/models.py:12
 msgid "School"
@@ -892,7 +892,7 @@ msgstr "data da ação"
 
 #: django-ovp-projects/ovp_projects/models/job.py:18
 msgid "job dates"
-msgstr "datas da açõ"
+msgstr "datas da ação"
 
 #: django-ovp-projects/ovp_projects/models/job.py:25
 #: django-ovp-projects/ovp_projects/models/work.py:9
@@ -1163,59 +1163,8 @@ msgstr "Computadores/Tecnologia"
 msgid "Outros"
 msgstr ""
 
-#~ msgid "Professional Training"
-#~ msgstr "Treinamento Profissional"
+#~ msgid "Organizations"
+#~ msgstr "Organizações"
 
-#~ msgid "Fight Poverty"
-#~ msgstr "Luta Contra Miséria"
-
-#~ msgid "Conscious consumption"
-#~ msgstr "Consumo Consciente"
-
-#~ msgid "Human Rights"
-#~ msgstr "Direitos Humanos"
-
-#~ msgid "Youth"
-#~ msgstr "Jovens"
-
-#~ msgid "Elders"
-#~ msgstr "Terceira Idade"
-
-#~ msgid "Environment"
-#~ msgstr "Meio Ambiente"
-
-#~ msgid "Citizen Participation"
-#~ msgstr "Participação Cidadã"
-
-#~ msgid "Animal Protection"
-#~ msgstr "Preteção Animal"
-
-#~ msgid "Health"
-#~ msgstr "Saúde"
-
-#~ msgid "People with disabilities"
-#~ msgstr "Necessidades Especiais"
-
-#~ msgid "Arts/Handcrafting"
-#~ msgstr "Artes Manuais"
-
-#~ msgid "Dance/Music"
-#~ msgstr "Música/Dança"
-
-#~ msgid "Law"
-#~ msgstr "Lei"
-
-#~ msgid "Cooking"
-#~ msgstr "Culinária"
-
-#~ msgid "Management"
-#~ msgstr "Gerenciamento"
-
-#~ msgid "Others"
-#~ msgstr "Outros"
-
-#~ msgid "New volunteer on your project"
-#~ msgstr "Novo voluntário em seu projeto"
-
-#~ msgid "Volunteer Roles"
-#~ msgstr "Cargos de Voluntário"
+#~ msgid "Category"
+#~ msgstr "Categoria"
