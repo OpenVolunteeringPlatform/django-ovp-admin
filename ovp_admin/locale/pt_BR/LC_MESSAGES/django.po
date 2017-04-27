@@ -759,11 +759,11 @@ msgstr "Modificado em"
 #: django-ovp-organizations/ovp_organizations/models.py:112
 #: django-ovp-projects/ovp_projects/models/project.py:31
 msgid "organization"
-msgstr "organização"
+msgstr "oganização"
 
 #: django-ovp-organizations/ovp_organizations/models.py:122
 msgid "organization_invite"
-msgstr "Convite da Organização"
+msgstr "Convite da Oganização"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:52
 msgid "E-mail"
