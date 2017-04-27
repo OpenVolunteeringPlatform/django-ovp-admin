@@ -606,7 +606,7 @@ msgstr "Tel do Responsável"
 #: django-ovp-projects/ovp_projects/admin/apply.py:76
 #: django-ovp-projects/ovp_projects/admin/project.py:86
 msgid "Organization"
-msgstr "Oganização"
+msgstr "Organização"
 
 #: django-ovp-organizations/ovp_organizations/models.py:11
 msgid "School"
@@ -727,11 +727,11 @@ msgstr "Modificado em"
 #: django-ovp-organizations/ovp_organizations/models.py:99
 #: django-ovp-projects/ovp_projects/models/project.py:24
 msgid "organization"
-msgstr "oganização"
+msgstr "organização"
 
 #: django-ovp-organizations/ovp_organizations/models.py:109
 msgid "organization_invite"
-msgstr "Convite da Oganização"
+msgstr "Convite da Organização"
 
 #: django-ovp-projects/ovp_projects/admin/apply.py:52
 msgid "E-mail"
