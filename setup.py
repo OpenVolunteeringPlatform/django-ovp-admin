@@ -15,6 +15,6 @@ setup(
     long_description=open('README.rst', encoding='utf-8').read(),
     zip_safe=False,
     install_requires = [
-      'Django>=1.10.1,<1.11.0',
+      'Django>=1.10.1,<1.12.0',
     ]
 )
